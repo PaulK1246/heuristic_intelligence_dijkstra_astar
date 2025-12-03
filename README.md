@@ -123,3 +123,27 @@ A*         |     400.80 |       207636 |       8.50
 Dijkstra found a path with length 109 and total distance 108.00.
 A* found a path with length 109 and total distance 108.00.
 ```
+
+
+## Dataset Download (Required)
+
+This project uses large real-world road network datasets from Stanford SNAP and optional OSM-based data.
+Because these files are too large to store in the repository, you must download them manually and place them inside a folder named:
+
+```
+data/
+```
+
+### 1) roadNet-CA (California Road Network)
+- Download Link: https://snap.stanford.edu/data/roadNet-CA.html
+- Direct file: roadNet-CA.txt.gz
+
+### 2) rpadNet-TX (Texas Road Network)
+- Download Link: https://snap.stanford.edu/data/roadNet-TX.html
+- Direct file: roadNet-TX.txt.gz
+
+After extracting:
+```
+data/roadNet-CA.txt
+data/roadNet-TX.txt
+```
